@@ -2,7 +2,10 @@ package com.cos.mongoapp.web.dto;
 
 import com.cos.mongoapp.domain.Board;
 
-public class BoardSaveReqDto {
+import lombok.Data;
+
+@Data
+public class BoardSaveDto {
 	private String title;
 	private String content;
 	
